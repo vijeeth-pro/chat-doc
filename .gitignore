@@ -1,0 +1,39 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.db
+
+# Node.js / Frontend
+*/node_modules/
+dist/
+build/
+.npm
+.eslintcache
+*.log
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+myenv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Application uploads and local index database
+backend/uploads/
